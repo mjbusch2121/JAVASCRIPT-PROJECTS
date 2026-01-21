@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Data Type Tester</title>
+    <script src="JS/main.js"></script>
+  </head>
+
+  <body>
+    <button onclick="showLocalVariable()">Show Local Variable</button>
+    <button onclick="brokenFunction()">Run Broken Function</button>
+    <p id="Time_Message" onclick="displayTimeMessage()">
+      Click here to check time message
+    </p>
+    <p id="My_Time_Check" onclick="myTimeFunction()">
+      Click here to run my custom time check
+    </p>
+    <p id="Produce_Time" onclick="produceTimeFunction()">
+      Click here to see your produce recommendation
+    </p>
+
+    <p>
+      Enter your favorite produce item, and I'll tell you if it's in season.
+    </p>
+    <input
+      id="Produce_Input"
+      type="text"
+      placeholder="e.g., apples, spinach, berries"
+    />
+    <p id="Produce_Result"></p>
+    <button onclick="checkProduceSeason()">Check Season</button>
+  </body>
+</html>
