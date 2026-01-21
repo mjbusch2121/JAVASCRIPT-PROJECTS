@@ -2,43 +2,49 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Data Type Tester</title>
+    <title>Project 5</title>
+    <link rel="stylesheet" href="style.css" />
     <script src="JS/main.js"></script>
   </head>
 
   <body>
-    <h2>Data Type Tester</h2>
+    <div class="container">
+      <h2>JS Comparison Type & Tester</h2>
+      
+      <button onclick="showNumber()">Test Number</button>
+      <button onclick="showString()">Test String</button>
+      <button onclick="showBoolean()">Test Boolean</button>
+      <button onclick="showObject()">Test Object</button>
+      <button onclick="showInfinity()">Show Infinity</button>
+      <button onclick="showNegativeInfinity()">Show -Infinity</button>
+      <button onclick="compareTrue()">Show True</button>
+      <button onclick="compareFalse()">Show False</button>
+      <button onclick="logMathOperation()">Run Console Math</button>
+      <button onClick="logFalse()">Log False</button>
+      <button onclick="strictTrue()">=== True</button>
+      <button onclick="strictFalse_TypeAndValue()">
+        === False (type + value)
+      </button>
+      <button onclick="strictFalse_DifferentTypeSameValue()">
+        === False (type only)
+      </button>
+      <button onclick="strictFalse_SameTypeDifferentValue()">
+        === False (value only)
+      </button>
+      <button onclick="andTrue()">AND True</button>
+      <button onclick="andFalse()">AND False</button>
+      <button onclick="orTrue()">OR True</button>
+      <button onclick="orFalse()">OR False</button>
+      <button onclick="showWriteType()">document.write() Example</button>
+      <button onclick="combineStringNumber()">String + Number</button>
+      <button onclick="notExample()">! NOT Example</button>
+      <button onclick="lessThanExample()">< Example</button>
+      <button onclick="equalLoose()">== Example</button>
 
-    <button onclick="showNumber()">Test Number</button>
-    <button onclick="showString()">Test String</button>
-    <button onclick="showBoolean()">Test Boolean</button>
-    <button onclick="showObject()">Test Object</button>
-    <button onclick="showInfinity()">Show Infinity</button>
-    <button onclick="showNegativeInfinity()">Show -Infinity</button>
-    <button onclick="compareTrue()">Show True</button>
-    <button onclick="compareFalse()">Show False</button>
-    <button onclick="logMathOperation()">Run Console Math</button>
-    <button onClick="logFalse()">Log False</button>
-    <button onclick="strictTrue()">=== True</button>
-    <button onclick="strictFalse_TypeAndValue()">
-      === False (type + value)
-    </button>
-    <button onclick="strictFalse_DifferentTypeSameValue()">
-      === False (type only)
-    </button>
-    <button onclick="strictFalse_SameTypeDifferentValue()">
-      === False (value only)
-    </button>
-    <button onclick="andTrue()">AND True</button>
-    <button onclick="andFalse()">AND False</button>
-    <button onclick="orTrue()">OR True</button>
-    <button onclick="orFalse()">OR False</button>
-    <button onclick="showWriteType()">document.write() Example</button>
-    <button onclick="combineStringNumber()">String + Number</button>
-    <button onclick="notExample()">! NOT Example</button>
-    <button onclick="lessThanExample()">< Example</button>
-    <button onclick="equalLoose()">== Example</button>
+      <p id="Output">Click a button to test a value.</p>
 
-    <p id="Output">Click a button to test a data type.</p>
+      <p class="footer">Project 5 - JS Comparisons</p>
+    </div>
+    
   </body>
 </html>
