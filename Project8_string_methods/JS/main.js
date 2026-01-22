@@ -80,3 +80,16 @@ function runToFixed() {
     document.getElementById("ToFixed_Result").innerHTML =
         "Formatted number: " + fixedValue;
 }
+
+// Uses the toPrecision() method to format a number to a set number of significant digits
+function runToPrecision() {
+    // A number with several digits
+    var numberValue = 123.456789;
+
+    // Format the number to 4 significant digits
+    var preciseValue = numberValue.toPrecision(4);
+
+    // Display the result
+    document.getElementById("ToPrecision_Result").innerHTML = 
+        "Number with 4 significant digits: " + preciseValue;
+}
