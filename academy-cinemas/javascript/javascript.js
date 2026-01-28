@@ -59,7 +59,7 @@ $(document).on("scroll", function (){
 $(document).ready(function (){
     // ON CLICK WHEN AN ELEMENT CONTAINS JUST THE NAV-LINK CLASS AND NOT THE DROPDOWN-TOGGLE AND THEN ALSO
     // CLOSE WHEN AN ELEMENT WITH THE CLASS .DROPDOWN-ITEM (EACH MOVIE LINK) HAS BEEN CLICKED
-    $(".nav-bar-nav").on('click', '.nav-link:not(".dropdown-toggle"), .dropdown-item', function(){
+    $(".navbar-nav").on('click', '.nav-link:not(".dropdown-toggle"), .dropdown-item', function(){
         // COLLAPSE THE NAVBAR WHEN A LINK OR DROPDOWN ITEM IS CLICKED
         $(".navbar-collapse").collapse('hide');
     });
