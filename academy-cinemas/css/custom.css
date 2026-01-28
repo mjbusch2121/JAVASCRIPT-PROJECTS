@@ -63,6 +63,17 @@ body {
     padding-left: 1.5rem;
 }
 
+/* SHRINK ON SCROLL NAVBAR */
+.nav-shrink {
+    height: 80px;
+    transition: .5s ease;
+}
+
+/* ADDS A TRANSITION TO THE MOVIE DROP DOWN MENU ON SHRINK AND SCROLL */
+.navbar-collaps {
+    transition: margin-top 0.5s ease;
+}
+
 /*Movie dropdown menu*/
 /*Targets the drop down menu that contains the links for each movie title*/
 .dropdown-menu{
